@@ -8,7 +8,7 @@
 }
 @font-face {
   font-family: Franklin Gothic Heavy;
-  src: url(/public/assets/fonts/FRAHV.TTF);
+  src: url("/public/assets/fonts/FRAHV.TTF");
 }
 
 .font-franklin {
@@ -167,12 +167,12 @@
 }
 
 .slide-one{
-  animation: slide 5s linear infinite; 
+  animation: slide 10s linear infinite; 
   will-change: transform;
 }
 
 .slide-two{
-  animation: slide-two 5s linear infinite; 
+  animation: slide-two 10s linear infinite; 
   will-change: transform;
 }
 

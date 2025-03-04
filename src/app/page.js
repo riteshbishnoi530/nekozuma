@@ -1,5 +1,4 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../app/page.module.css';
 import Hero from '@/components/Hero';
 import SliderImages from '@/components/SliderImages';
 import Story from '@/components/Story';

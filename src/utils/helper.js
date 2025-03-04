@@ -43,7 +43,7 @@ export const SLIDER_TWO = [
     "/assets/images/sneakpeek8.webp",
     ]
 
-    export const TEAM = [
+    export const TEAM_LIST = [
         {
             image: "/assets/images/founder.webp",
             role: "Founder",
