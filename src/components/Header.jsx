@@ -10,7 +10,7 @@ const Header = () => {
                 <div className='d-flex align-items-center header-gap'>
                     <ul className='d-flex header-gap p-0'>
                         {HEADER_LIST.map((obj, i) => (
-                            <li key={i}><a href={obj.link} className='text-white'>{obj.title}</a>
+                            <li key={i}><a href={obj.link} className='text-white header-link'>{obj.title}</a>
                             </li>
                         ))}
                     </ul>

@@ -25,7 +25,8 @@
   /* font size root */
   --text-sm: 14px;
   --text-md: 16px;
-  --text-lg: 21px;
+  --text-base: 21px;
+  --text-lg: 24px;
   --text-xl: 43px;
   --text-xxl: 64px;
 }
@@ -37,6 +38,10 @@
 
 .text-md {
   font-size: var(--text-md) !important;
+}
+
+.text-base {
+  font-size: var(--text-base) !important;
 }
 
 .text-lg {
@@ -90,8 +95,22 @@
   max-width: 424px;
 }
 
+.header-icons:hover{
+  transform: scale(1.5);
+}
+
 .header-icons{
   width: 24px;
+  transition: all 0.3s ease-in-out;
+  pointer-events: none;
+}
+
+.header-link:hover{
+  color: var(--off-blue) !important;
+}
+
+.header-link{
+  transition: all 0.3s ease-in-out;
 }
 
 .header-gap{
@@ -125,25 +144,26 @@
 }
 
 .conect-wallet-btn{
-  background-color: var(--custom-blue);
+  background-color: var(--off-blue);
   padding: 6px 24px;
   border-radius: 9px;
   color: white;
   font-size: var(--text-md);
   margin-top: 43px !important;
-  border: 1px solid var(--custom-blue);
+  border: 1px solid var(--off-blue);
   transition: all 0.3s ease-in-out;
 }
 
 .conect-wallet-btn:hover{
   background-color:white;
-  color: var(--custom-blue);
+  color: var(--off-blue);
 }
 
 /* slider images */
 .slider-images{
   max-width: 320px;
   width: 100%;
+  pointer-events: none;
 }
 
 .slide-one{
@@ -209,10 +229,16 @@
 }
 .team-member-img{
   width: 100%;
+  pointer-events: none;
 }
 
 .team-icon{
   width: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.team-icon:hover{
+  transform: scale(1.5);
 }
 
 .team-heading{
@@ -236,6 +262,12 @@
 .icons{
   max-width: 32px;
   width: 100%;
+  transition: all 0.3s ease-in-out;
+  pointer-events: none;
+}
+
+.icons:hover{
+  transform: scale(1.5);
 }
 
 .footer{
@@ -412,8 +444,8 @@
   }
 
   .hero-content{
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
   .hero-img{

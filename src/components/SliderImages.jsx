@@ -3,7 +3,7 @@ import React from 'react'
 
 function SliderImages() {
   return (
-    <div className='slider-container'>
+    <div id='overview' className='slider-container'>
         <div className='d-flex justify-content-center slide-one'>
             {SLIDER_ONE.map((image, index) => (
                 <img className='slider-images' key={index} src={image} alt="image" />

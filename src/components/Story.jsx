@@ -2,7 +2,7 @@ import React from 'react'
 
 function Story() {
   return (
-    <div className='story'>
+    <div id='story' className='story'>
       <div className='px-3'>
         <div className="custom-container">
           <h2 className='text-xl custom-blue text-center story-heading font-franklin'>Story</h2>

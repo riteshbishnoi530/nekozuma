@@ -3,7 +3,7 @@ import React from 'react'
 
 function Team() {
   return (
-    <div className='team px-3'>
+    <div id='team' className='team px-3'>
         <div className="custom-container">
         <h2 className='text-xl custom-blue text-center team-heading font-franklin'>Team</h2>
             <div className='d-flex justify-content-center flex-wrap team-container'>
