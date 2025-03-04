@@ -5,6 +5,7 @@ function Hero() {
     return (
         <div className='position-relative px-3'>
             <Header/>
+            <img className='position-absolute hero-layer' src="/assets/images/hero-left-layer.webp" alt="hero layer" />
             <div className="custom-container hero align-items-center d-flex">
                 <div className='hero-content w-100'>
                 <div className='blue-line m-0'></div>

@@ -84,6 +84,8 @@
   width: 100% !important;
 }
 
+/* hero */
+
 .logo{
   max-width: 424px;
 }
@@ -94,6 +96,13 @@
 
 .header-gap{
   gap: 32px;
+}
+
+.hero-layer{
+  max-width: 200px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
 }
 
 .hero-description{
@@ -283,6 +292,10 @@
     max-width: 340px;
   }
 
+  .hero-layer{
+    display: none !important;
+  }
+
   :root {
   
     /* font size root */
@@ -353,8 +366,8 @@
     margin-top: 30px !important;
   }
 
-  .hero-description{
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25) !important;
+  .hero-img{
+    display: none;
   }
 
   :root {
