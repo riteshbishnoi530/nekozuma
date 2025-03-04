@@ -131,7 +131,13 @@
   color: white;
   font-size: var(--text-md);
   margin-top: 43px !important;
-  border: 0;
+  border: 1px solid var(--custom-blue);
+  transition: all 0.3s ease-in-out;
+}
+
+.conect-wallet-btn:hover{
+  background-color:white;
+  color: var(--custom-blue);
 }
 
 /* slider images */
