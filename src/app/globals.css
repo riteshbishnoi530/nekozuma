@@ -119,7 +119,7 @@
 }
 
 .hero-content{
-  padding-top: 164px;
+  padding-top: 194px;
   padding-bottom: 140px;
   z-index: 1;
 }
@@ -210,6 +210,11 @@
 .team-member-img{
   width: 100%;
 }
+
+.team-icon{
+  width: 20px;
+}
+
 .team-heading{
   margin-bottom: 36px !important;
 }

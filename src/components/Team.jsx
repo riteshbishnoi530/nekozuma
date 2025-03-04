@@ -14,7 +14,7 @@ function Team() {
                         <p className='text-sm custom-white text-center mt-2'>{team.member}</p>
                         <p className='text-sm custom-white text-center mt-2'>{team.description}</p>
                         <a target='_blank' href="https://x.com/?lang=en">
-                        <img className='d-flex mx-auto mt-2' src="/assets/images/twitter.webp" alt="twitter" />
+                        <img className='d-flex mx-auto mt-2 team-icon' src="/assets/images/twitter.webp" alt="twitter" />
                         </a>
                     </div>
                 ))}
