@@ -93,6 +93,7 @@
 
 .logo{
   max-width: 424px;
+  pointer-events: none;
 }
 
 .header-icons:hover{
